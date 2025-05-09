@@ -5,9 +5,7 @@ function getConfiguration(config) {
 }
 
 function getEndpoints(deviceAddress, endpoints) {
-  // Esta función permite indicar la configuración inicial de los endpoints
-  // cuando se crea un dispositivo de este modelo.
-
+  
   endpoints.addEndpoint("1", "Batería", endpointType.voltageSensor);
   endpoints.addEndpoint("2", "Temperatura", endpointType.temperatureSensor);
 
